@@ -1,4 +1,4 @@
-# Email Extractor App
+# Excel Email Address Extractor App
 
 This is a simple JavaScript app that allows users to upload multiple Excel files (.xlsx) and extract email addresses from the sheets. The extracted email addresses are then displayed on the interface.
 
