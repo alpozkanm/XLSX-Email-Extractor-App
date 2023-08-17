@@ -5,6 +5,7 @@ This is a simple JavaScript app that allows users to upload multiple Excel files
 Only working code on github!
 
 ## Demo
+![](https://github.com/alpozkanm/XLSX-Email-Extractor-App/blob/master/demo.gif)
 
 ## Features
 
