@@ -19,13 +19,13 @@ Only working code on github!
 
 git clone project
 
-3. cd into project
+2. cd into project
 
-4. Open the `index.html` file in a web browser.
+3. Open the `index.html` file in a web browser.
 
-5. Click the "Choose Files" button to select one or more Excel files (.xlsx) from your local machine.
+4. Click the "Choose Files" button to select one or more Excel files (.xlsx) from your local machine.
 
-6. The app will process the selected files and display the extracted email addresses on the interface.
+5. The app will process the selected files and display the extracted email addresses on the interface.
 
 ## Requirements
 
