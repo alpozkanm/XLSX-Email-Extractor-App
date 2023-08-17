@@ -19,11 +19,9 @@ Only working code on github!
 
 git clone project
 
-2. npm install local-web-server
+3. cd into project
 
-3. cd into project and write ws in terminal
-
-4.Open the `index.html` file in a web browser.
+4. Open the `index.html` file in a web browser.
 
 5. Click the "Choose Files" button to select one or more Excel files (.xlsx) from your local machine.
 
