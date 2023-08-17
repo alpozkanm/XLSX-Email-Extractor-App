@@ -1,0 +1,101 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Styles for the input container */
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .choose-files,
+  .button {
+    height: 40px; /* Set the desired height */
+    line-height: 40px; /* Vertically center the text */
+    font-size: 16px; /* Set the desired font size */
+  }
+  
+  .choose-files {
+    background-color: #3498db; /* Light blue color */
+    color: white;
+    border: none;
+    padding: 5px 20px; /* Adjust horizontal padding */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+
+  input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  .choose-files:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+  }
+  
+  /* Style for the download button */
+  .button {
+    background-color: #3498db; /* Light blue color */
+    color: white;
+    border: none;
+    height: 50px; /* Set the desired height */
+    line-height: 50px; /* Vertically center the text */
+    font-size: 16px; 
+    padding: 0 20px; /* Adjust horizontal padding */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the email container */
+  #emailsContainer {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #emailsContainer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #emailsContainer li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add any other styles you need */
+  
